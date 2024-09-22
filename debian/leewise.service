@@ -1,0 +1,14 @@
+[Unit]
+Description=Leewise Open Source ERP and CRM
+After=network.target
+
+[Service]
+Type=simple
+User=leewise
+Group=leewise
+ExecStart=/usr/bin/leewise --config /etc/leewise/leewise.conf --logfile /var/log/leewise/leewise-server.log
+KillMode=mixed
+
+[Install]
+WantedBy=multi-user.target
+

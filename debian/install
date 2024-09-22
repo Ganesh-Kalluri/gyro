@@ -1,0 +1,2 @@
+debian/leewise.conf /etc/leewise
+README.md /usr/share/doc/leewise

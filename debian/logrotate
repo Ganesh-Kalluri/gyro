@@ -1,0 +1,5 @@
+/var/log/leewise/*.log {
+    copytruncate
+    missingok
+    notifempty
+}
